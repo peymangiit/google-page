@@ -1,0 +1,139 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container{
+    transform: translateY(-45px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    position: fixed;
+    margin-top: 3px;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 44px;
+    /* background-color: rgba(128, 128, 128, 0.548); */
+    width: 100%;
+
+}
+/* nav ul{
+    display: inline-block;
+} */
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.b-link{
+    text-decoration: none;
+    color: black;
+}
+.b-link:hover{
+    text-decoration: underline;
+}
+
+#signin{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.inputWraper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.603);
+    padding: 8px;
+    gap: 5px;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+#lens,#voice,#grid,#pen,#search{
+    width: 15px;
+    margin: 0px 8px;
+}
+#grid{
+    
+    cursor: pointer;    
+}
+#gridli:hover{
+    border-radius:49% ;
+    background-color: rgba(60, 38, 82, 0.027);
+    
+ 
+    
+    
+}
+
+.custom{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding:  3px 15px;
+    margin: 15px 10px;
+    border-radius: 20px;
+    color: rgb(90, 90, 255);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.253);
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+
+}
+
+.btn{
+    padding: 8px 15px;
+    background-color: rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgba(48, 45, 45, 0.575);
+}
+.btn:hover{
+    background-color: rgb(95, 95, 255);
+    color: aliceblue;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+
+}
