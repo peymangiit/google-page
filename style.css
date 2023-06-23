@@ -137,3 +137,8 @@ footer{
     text-align: center;
 
 }
+@media (max-width: 572px) {
+    .container{
+        width: 80%;
+    }
+}
